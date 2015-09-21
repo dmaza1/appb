@@ -10,7 +10,7 @@ public class ServiceBTest {
 	public void testPlus() {
 		IServiceB serviceB = new ServiceB();
 		int result = serviceB.minus(10, 10);
-		assertEquals(20, result);
+		assertEquals(0, result);
 	}
 
 }

@@ -11,7 +11,7 @@ public class ServiceB implements IServiceB {
 
 	@Override
 	public int minus(int left, int right) {
-		return left + right;
+		return left - right;
 	}
 
 }
